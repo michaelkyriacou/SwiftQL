@@ -1,0 +1,5 @@
+module SwiftQL [system] {
+    header "headers.h"
+    link "pq"
+    export *
+}
