@@ -1,5 +1,11 @@
-module SwiftQL [system] {
-    header "headers.h"
-    link "pq"
+module CPostgres [system] {
+    header "postgres.h"
+    link "postgres"
+    export *
+}
+
+module CSQLite [system] {
+    header "sqlite.h"
+    link "sqlite"
     export *
 }
