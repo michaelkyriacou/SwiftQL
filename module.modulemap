@@ -1,11 +1,11 @@
 module CPostgres [system] {
     header "postgres.h"
-    link "postgres"
+    link "pq"
     export *
 }
 
 module CSQLite [system] {
     header "sqlite.h"
-    link "sqlite"
+    link "sqlite3"
     export *
 }
